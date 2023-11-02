@@ -10,10 +10,10 @@ Deep neural network models are vulnerable to subtle but adversarial perturbation
 
 ## How to cite our paper
     @inproceedings{zhu2023imperceptible,
-  title={Imperceptible Adversarial Attack on S Channel of HSV Colorspace},
-  author={Zhu, Tong and Yin, Zhaoxia and Lyu, Wanli and Zhang, Jiefei and Luo, Bin},
-  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
-  pages={1--7},
-  year={2023},
-  organization={IEEE}
-}
+      title={Imperceptible Adversarial Attack on S Channel of HSV Colorspace},
+      author={Zhu, Tong and Yin, Zhaoxia and Lyu, Wanli and Zhang, Jiefei and Luo, Bin},
+      booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
+      pages={1--7},
+      year={2023},
+      organization={IEEE}
+    }
