@@ -9,7 +9,7 @@ Deep neural network models are vulnerable to subtle but adversarial perturbation
 深度神经网络模型很容易受到微妙但对抗性扰动的影响，从而改变模型。 对抗性扰动通常针对 RGB 图像进行计算，因此均匀分布在 RGB 通道中。 与RGB图像相比，HSV图像可以更直观地表达色相、饱和度和亮度。 我们发现S通道中的对抗性扰动保证了较高的攻击成功率，同时扰动较小，并且对抗性示例的视觉质量良好。 利用这一发现，我们提出了一种攻击方法 SPGD，通过在 S 通道上生成扰动来提高对抗性示例的视觉质量。 基于PGD方法的攻击原理，将RGB图像转换为HSV图像。 将模型在S通道上计算出的梯度叠加在S通道上，然后与无干扰的H和V通道结合起来转换回RGB图像。 迭代停止，直到攻击成功。 我们将 SPGD 方法与现有最先进的攻击方法进行比较。 结果表明，SPGD在保持较高攻击成功率的同时最大限度地减少了像素扰动，并在结构相似性、不可感知性、最少迭代次数和最短运行时间方面取得了最佳效果。
 
 ## How to cite our paper
-@inproceedings{zhu2023imperceptible,
+    @inproceedings{zhu2023imperceptible,
   title={Imperceptible Adversarial Attack on S Channel of HSV Colorspace},
   author={Zhu, Tong and Yin, Zhaoxia and Lyu, Wanli and Zhang, Jiefei and Luo, Bin},
   booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
